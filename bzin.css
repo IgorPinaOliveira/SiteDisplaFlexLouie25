@@ -1,0 +1,553 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#author{
+    margin-top: 45px;
+    border-radius: 500px;
+    width: 160px;
+    height: 160px;
+    left: 85px;
+    object-fit: cover;
+}
+body{
+
+    color: black;
+}
+a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#louis{
+    display: flex; 
+    color: black;
+    margin-top: 25px;
+}
+
+#home{
+    margin-top: 30px;
+    
+}
+#textos{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    align-items: center;
+    z-index: 1;
+}
+#image{
+    z-index: 99;
+    right: 36%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 963px;
+    object-fit: cover;
+    left: 43.5vh;
+}
+#hello{
+    color: #bfbfbf;
+    font-size: 24px;
+    margin-left: 1270px;
+    padding-top: 260px;
+    z-index: 2;
+    
+}
+#Louie{
+    color: #ededed;
+    font-size: 24px;
+    margin-left: 1300px;
+    font-size: 70px;
+    position: absolute;
+    top: 235px;
+    left: -9vh;
+    z-index: -20;
+    
+}
+#Photographer{
+    color: rgb(0, 0, 0);
+    font-size: 1px;
+    margin-left: 1265px;
+    font-size: 45px;
+    position: absolute;
+    left: -8px;
+    top: 300px;
+}
+.dorado{
+    color: #ccb78f;
+}
+#Iam{
+    position: absolute;
+    left: 131vh;
+    font-size: 25px;
+    top: 45vh;
+    color: #999999;
+}
+#follow{
+    position: absolute;
+    top: 105vh;
+    left: 113vh;
+    color: black;
+    font-size: 19px;
+}
+#mulheres1{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres2{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 90vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres3{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 110vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres4{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 130vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres5{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 150vh;
+    top: 113vh;
+    object-fit: cover;
+}
+
+#mulheres01{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres02{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres03{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres04{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+#mulheres05{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 113vh;
+    object-fit: cover;
+}
+footer{
+    background-color: #242423;
+    width: 14000px;
+    height: 550px;
+    position: absolute;
+    top: 150vh;
+    left: 0vh;
+
+}
+#jose{
+    color: white;
+    position: absolute;
+    left: 75vh;
+    top: 70px;
+    font-size: 23px;
+}
+#mulheres01{
+    position: absolute;
+    top: 15vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+    left: 70vh;
+}
+#mulheres02{
+    
+    position: absolute;
+    top: 15vh;
+    left: 79.6vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+}
+#mulheres03{
+    
+    position: absolute;
+    top: 15vh;
+    left: 89vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+}
+#mulheres04{
+    
+    position: absolute;
+    top: 25vh;
+    left: 70vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+}
+#mulheres05{
+    
+    position: absolute;
+    top: 25vh;
+    left: 79.5vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+}
+#mulheres06{
+    
+    position: absolute;
+    top: 25vh;
+    left: 89.1vh;
+    width: 91.66px;
+    height: 100px;
+    object-fit: cover;
+}
+#igor{
+    color: white;
+    position: absolute;
+    left: 103vh;
+    top: 70px;
+    font-size: 23px;
+}
+
+#artur{
+    color: white;
+    position: absolute;
+    left: 135vh;
+    top: 70px;
+    font-size: 23px;
+}
+
+ul {
+    position: relative;
+    color: white;
+    position: absolute;
+    left: 103vh;
+    top: 140px;
+    font-size: 23px;
+   
+    text-decoration: none;
+    list-style: none;
+   
+}
+ul li{margin-bottom:
+    12px;
+}
+ul li p{
+    font-size: 20px;
+}
+#cidade{
+    color: white;
+    position: absolute;
+    left: 135vh;
+    top: 138px;
+    font-size: 19px;  
+}
+#number{
+    color: white;
+    position: absolute;
+    left: 135vh;
+    top: 200px;
+    font-size: 19px;  
+}
+#email{
+    color: white;
+    position: absolute;
+    left: 135vh;
+    top: 250px;
+    font-size: 19px;  
+}
+.emailforma{
+    margin-top: 1vh;
+       
+}
+#juse{
+    
+        margin-top: 32vh;
+}
+#mycollection{
+    position: absolute;
+    left: 65vh;
+    font-size: 40px;
+    top: 12vh;
+}
+#headerdorado{
+    background-color: #ccb78f !important;
+    height: 250px;
+    width: 100%;
+}
+#mulhe1{
+ position: absolute;
+ top: 30vh;
+ left: 50vh;
+ width: 400px;
+ height: 250px;
+ object-fit: cover;
+}
+#mulhe2{
+    position: absolute;
+    top: 30vh;
+    left: 95vh;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+   }
+   #mulhe3{
+    position: absolute;
+    top: 30vh;
+    left: 140vh;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+   }
+   #mulhe4{
+    position: absolute;
+    top: 60vh;
+    left: 50vh;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+   }
+   #mulhe5{
+    position: absolute;
+    top: 60vh;
+    left: 95vh;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+   }
+   #mulhe6{
+    position: absolute;
+    top: 60vh;
+    left: 140vh;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;}
+    #mulhe7{
+        position: absolute;
+        top: 90vh;
+        left: 50vh;
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+       }
+       #mulhe8{
+        position: absolute;
+        top: 90vh;
+        left: 95vh;
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+       }
+       #mulhe9{
+        position: absolute;
+        top: 90vh;
+        left: 140vh;
+        width: 400px;
+        height: 250px;
+        object-fit: cover;}
+        
+        #mulhe10{
+            position: absolute;
+            top: 120vh;
+            left: 50vh;
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+           }
+           #mulhe11{
+            position: absolute;
+            top: 120vh;
+            left: 95vh;
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+           }
+           #mulhe12{
+            position: absolute;
+            top: 120vh;
+            left: 140vh;
+            width: 400px;
+            height: 250px;
+            object-fit: cover;}
+        
+    #preto{
+        background-color: #242423;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 99.2vh;
+        z-index: -99;
+        
+    }
+    #mulhere1{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 70vh;
+    top: 125vh;
+    object-fit: cover;
+}
+#mulhere2{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 90vh;
+    top: 125vh;
+    object-fit: cover;
+}
+#mulhere3{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 110vh;
+    top: 125vh;
+    object-fit: cover;
+}
+#mulhere4{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 130vh;
+    top: 125vh;
+    object-fit: cover;
+}
+#mulhere5{
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    left: 150vh;
+    top: 125vh;
+    object-fit: cover;}
+#followme{
+    position: absolute;
+    top: 122vh;
+    left: 113vh;
+    color: black;
+    font-size: 19px;
+}
+
+#num1{
+    position: absolute;
+    top: 67px;
+    left: 50vh;
+    color: #ccb78f;
+    font-size: 50px;
+    z-index: 1;
+}
+#num2{
+    position: absolute;
+    top: 67px;
+    left: 80vh;
+    color: #ccb78f;
+    font-size: 50px;
+    z-index: 1;
+}
+#num3{
+    position: absolute;
+    top: 67px;
+    left: 110vh;
+    color: #ccb78f;
+    font-size: 50px;
+    z-index: 1;
+}
+#num4{
+    position: absolute;
+    top: 67px;
+    left: 140vh;
+    color: #ccb78f;
+    font-size: 50px;
+    z-index: 1;
+}
+#texto01{
+    position: absolute;
+    top: 75px;
+    left: 65vh;
+    z-index: 1;
+    font-size: 15px;
+    color: #999999;
+}
+#texto02{
+    position: absolute;
+    top: 75px;
+    left: 96vh;
+    z-index: 1;
+    font-size: 15px;
+    color: #999999;
+}
+#texto03{
+    position: absolute;
+    top: 75px;
+    left: 125vh;
+    z-index: 1;
+    font-size: 15px;
+    color: #999999;
+}
+#texto04{
+    position: absolute;
+    top: 75px;
+    left: 155vh;
+    z-index: 1;
+    font-size: 15px;
+    color: #999999;
+}
